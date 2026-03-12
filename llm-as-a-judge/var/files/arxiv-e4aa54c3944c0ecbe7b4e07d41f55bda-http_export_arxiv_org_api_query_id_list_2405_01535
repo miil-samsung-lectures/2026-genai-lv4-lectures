@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hWYiPCugLIbZBbRcmwjTRKeOyag</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.01535&amp;start=0&amp;max_results=10</title>
+  <updated>2026-03-11T07:26:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2405.01535" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01535v2</id>
+    <title>Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models</title>
+    <updated>2024-12-04T19:23:17Z</updated>
+    <link href="https://arxiv.org/abs/2405.01535v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01535v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proprietary LMs such as GPT-4 are often employed to assess the quality of responses from various LMs. However, concerns including transparency, controllability, and affordability strongly motivate the development of open-source LMs specialized in evaluations. On the other hand, existing open evaluator LMs exhibit critical shortcomings: 1) they issue scores that significantly diverge from those assigned by humans, and 2) they lack the flexibility to perform both direct assessment and pairwise ranking, the two most prevalent forms of assessment. Additionally, they do not possess the ability to evaluate based on custom evaluation criteria, focusing instead on general attributes like helpfulness and harmlessness. To address these issues, we introduce Prometheus 2, a more powerful evaluator LM than its predecessor that closely mirrors human and GPT-4 judgements. Moreover, it is capable of processing both direct assessment and pair-wise ranking formats grouped with a user-defined evaluation criteria. On four direct assessment benchmarks and four pairwise ranking benchmarks, Prometheus 2 scores the highest correlation and agreement with humans and proprietary LM judges among all tested open evaluator LMs. Our models, code, and data are all publicly available at https://github.com/prometheus-eval/prometheus-eval.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T17:59:35Z</published>
+    <arxiv:comment>EMNLP 2024 (Main Conference)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Seungone Kim</name>
+    </author>
+    <author>
+      <name>Juyoung Suk</name>
+    </author>
+    <author>
+      <name>Shayne Longpre</name>
+    </author>
+    <author>
+      <name>Bill Yuchen Lin</name>
+    </author>
+    <author>
+      <name>Jamin Shin</name>
+    </author>
+    <author>
+      <name>Sean Welleck</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Moontae Lee</name>
+    </author>
+    <author>
+      <name>Kyungjae Lee</name>
+    </author>
+    <author>
+      <name>Minjoon Seo</name>
+    </author>
+  </entry>
+</feed>
